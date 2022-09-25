@@ -1,0 +1,28 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+}
+.scan
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.scan .qrcode{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: url("https://drive.google.com/file/d/1G6umdPKr3-S2nQWPuWbmg6Wj22rQykMr/view?usp=sharing");
+}
