@@ -19,7 +19,7 @@
 ## Applied knowledge 📚
 - Box Model
 - Display Flex
-- Formatação de textos
+- Text Formatting
 - CSS Animations
 - Applying Classes, Pseudoclasses, and Pseudo Elements in CSS
 - use of images
