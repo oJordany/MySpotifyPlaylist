@@ -14,10 +14,18 @@ body
     min-height: 100vh;
     background: #111;
 }
+#main {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        'title'
+        'scan';
+}
 .wave{
-    position: absolute;
+    grid-area: title;
     color: #35fd5c;
-    top: 8px;
+    padding-top:5px;
     filter: drop-shadow(0 0 20px #35fd5c) drop-shadow(0 0 60px #35fd5c);
     font-size: 35px;
 }
@@ -39,6 +47,7 @@ body
 }
 .scan
 {
+    grid-area: scan;
     position: relative;
     display: flex;
     align-items: center;
@@ -99,7 +108,7 @@ body
 .border
 {
     position: absolute;
-    inset: 0;
+    inset: 0 0 0 55px;
     background: url(assets/border.png);  
     background-size: 401px;
     background-repeat: no-repeat;
